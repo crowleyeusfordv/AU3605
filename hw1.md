@@ -86,3 +86,5 @@ $y(n)=\sum_{k=0}^{2}0.5^k\delta(n-k-2)=0.5^0\delta(n-2)+0.5^1\delta(n-1)+0.5^2\d
 当$n \geq -1$时，$y(n)=\sum_{k=-\infty}^{-1}2^k0.5^{n-k}=\sum_{k=-\infty}^{-1}4^k0.5^n=0.5^n \frac{1}{1-4}=\frac{1}{3}\cdot 0.5^n$
 
 ## Question 6
+
+1
