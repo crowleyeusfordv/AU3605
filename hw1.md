@@ -87,4 +87,4 @@ $y(n)=\sum_{k=0}^{2}0.5^k\delta(n-k-2)=0.5^0\delta(n-2)+0.5^1\delta(n-1)+0.5^2\d
 
 ## Question 6
 
-1
+2324
