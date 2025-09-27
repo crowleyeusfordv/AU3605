@@ -37,7 +37,7 @@ $=y(n-n_0)$
 判断以下序列是否是**周期**的,若是,确定其**周期**。
 
 (a) $x(n)=A\cos(\frac{3\pi n}{7}-\frac{\pi}{8})$
-是。$T=\frac{14}{3}k, k \in Z^+$  
+是。$T=14$  
 (b) $x(n)=e^{j8\pi n/\sqrt{3}}$
 不是。$\pi$的系数是无理数。  
 (c) $x(n)=\sin(3\pi n)-\cos(12n)$
@@ -45,7 +45,7 @@ $=y(n-n_0)$
 
 ## Question 3
 
-已知序列 $x(n)=\{1, 2, 3, -2\}$ 和 $h(n)=\{2,-1,\underline{6},5\}$。
+已知序列 $x(n)=\{1, -2, 3, -2\}$ 和 $h(n)=\{2,-1,\underline{6},5\}$。
 
 求两序列的**卷积和** (分别采用**对位相乘法**和**图解法**)。
 
@@ -91,13 +91,13 @@ $[x(n)+y(n)]\ast z(n)=\sum_{k=-\infty}^{\infty}[x(k)+y(k)]z(n-k)=\sum_{k=-\infty
 
 (a) $x(n)=\delta(n-2),h(n)=0.5^n R_3(n)$
 
-$y(n)=\sum_{k=0}^{2}0.5^k\delta(n-k-2)=0.5^0\delta(n-2)+0.5^1\delta(n-1)+0.5^2\delta(n)=0.25\delta(n)+0.5\delta(n-1)+\delta(n-2)$
+$y(n)=\sum_{k=0}^{2}0.5^k\delta(n-k-2)=0.5^0\delta(n-2)+0.5^1\delta(n-3)+0.5^2\delta(n-4)=0.25\delta(n-4)+0.5\delta(n-3)+\delta(n-2)$
 
 (b) $x(n)=2^n u(-n-1),h(n)=0.5^n u(n)$
 
 当$n \leq -1$时，$y(n)=\sum_{k=-\infty}^{n}2^k0.5^{n-k}=\sum_{k=-\infty}^{n}4^k0.5^n=0.5^n \frac{4^{n+1}}{4-1}=\frac{4}{3}\cdot 2^n$
 
-当$n \geq -1$时，$y(n)=\sum_{k=-\infty}^{-1}2^k0.5^{n-k}=\sum_{k=-\infty}^{-1}4^k0.5^n=0.5^n \frac{1}{1-4}=\frac{1}{3}\cdot 0.5^n$
+当$n \geq -1$时，$y(n)=\sum_{k=-\infty}^{-1}2^k0.5^{n-k}=\sum_{k=-\infty}^{-1}4^k0.5^n=\frac{1}{3}\cdot 0.5^n$
 
 ## Question 6
 
